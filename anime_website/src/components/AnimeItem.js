@@ -36,6 +36,7 @@ function AnimeItem() {
         getAnime(id)
         // eslint-disable-next-line
         getCharacters(id)
+        // eslint-disable-next-line
     }, [])
 
  return <AnimeItemStyled>
