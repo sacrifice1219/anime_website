@@ -34,6 +34,7 @@ function AnimeItem() {
 
     useEffect(() => {
         getAnime(id)
+        // eslint-disable-next-line
         getCharacters(id)
     }, [])
 

@@ -43,6 +43,7 @@ function HomePage() {
                 </div>
                 <form action='' className='search-form' onSubmit={handleSubmit}>
                     <div className='input-control'>
+                    // eslint-disable-next-line
                         <input type='text' placeholder='Search Anime' value={search} onChange={handleChange} />
                         <button type='submit' >
                             Search
