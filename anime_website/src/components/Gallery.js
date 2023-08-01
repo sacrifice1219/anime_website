@@ -17,6 +17,7 @@ function Gallery() {
 
     React.useEffect(() => {
         getAnimePictures(id)
+        // eslint-disable-next-line
     }, [id])
 
     return (

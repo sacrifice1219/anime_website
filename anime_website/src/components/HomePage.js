@@ -7,7 +7,9 @@ import Airing from './Airing';
 
 function HomePage() {
     const { handleSubmit, search, handleChange,
+        // eslint-disable-next-line
         searchAnime,
+        // eslint-disable-next-line
         getPopularAnime,
         getUpComingAnime,
         getAiringAnime,} = useGlobalContext();
@@ -40,6 +42,7 @@ function HomePage() {
                         setRendered('popular')
                        
                     }}>Popular</button>
+                    // eslint-disable-next-line
                 </div>
                 <form action='' className='search-form' onSubmit={handleSubmit}>
                     <div className='input-control'>
