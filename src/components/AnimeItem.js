@@ -34,10 +34,8 @@ function AnimeItem() {
 
     useEffect(() => {
         getAnime(id)
-        // eslint-disable-next-line
         getCharacters(id)
-        // eslint-disable-next-line
-    }, [])
+    }, [id])
 
  return <AnimeItemStyled>
          <h1>{title}</h1>

@@ -40,13 +40,11 @@ function HomePage() {
                 <div className='filter-btn popular-filter'>
                     <button onClick={() =>{
                         setRendered('popular')
-                       
                     }}>Popular</button>
-                    // eslint-disable-next-line
                 </div>
                 <form action='' className='search-form' onSubmit={handleSubmit}>
                     <div className='input-control'>
-                    // eslint-disable-next-line
+                 
                         <input type='text' placeholder='Search Anime' value={search} onChange={handleChange} />
                         <button type='submit' >
                             Search
